@@ -2,7 +2,7 @@ package com.techblog.techblog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import java.utils.*;
+import java.util.*;
 
 @SpringBootApplication
 public class TechblogApplication {
