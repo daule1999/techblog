@@ -10,11 +10,11 @@ public class TechblogApplication {
 		super();
 	}
 	public static void main(String[] args) {
-		// SpringApplication.run(TechblogApplication.class, args);
-		SpringApplication app = new SpringApplication(TechblogApplication.class);
-        	app.setDefaultProperties(Collections.singletonMap("server.port", "8083"));
-		System.out.println("Server running at port  "+8083);
-        	app.run(args);
+		 SpringApplication.run(TechblogApplication.class, args);
+// 		SpringApplication app = new SpringApplication(TechblogApplication.class);
+//         	app.setDefaultProperties(Collections.singletonMap("server.port", "8083"));
+// 		System.out.println("Server running at port  "+8083);
+//         	app.run(args);
 	}
 
 }
